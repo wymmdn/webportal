@@ -6,12 +6,12 @@ interface IProps {
     age?: number;
 }
 const defaultProps: IProps = {
-    name: 'hello',
+    name: 'item',
     age: 0,
 };
 
-const hello: FC<IProps> = (props = defaultProps) => {
-    return <Button type="primary">hello world!</Button>;
+const items: FC<IProps> = (props = defaultProps) => {
+    return <Button type="primary">item page </Button>;
 };
 
-export default hello;
+export default items;
