@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { Button } from 'antd';
+import '@/assets/css/test.less';
 
 interface IProps {
     name?: string;
@@ -11,7 +12,7 @@ const defaultProps: IProps = {
 };
 
 const hello: FC<IProps> = (props = defaultProps) => {
-    return <Button type="primary">hello world!</Button>;
+    return <Button>hello world!</Button>;
 };
 
 export default hello;

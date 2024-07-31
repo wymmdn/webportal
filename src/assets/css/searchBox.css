@@ -1,0 +1,39 @@
+.ancient-search-box {
+    position: relative;
+    border: 2px solid #8b4513;
+    /* 古风色调边框 */
+    border-radius: 10px;
+    padding: 5px;
+    background-image: url('../resource/firstButton.jpg');
+    /* 古风背景图 */
+    background-size: cover;
+}
+
+.ancient-input {
+    width: calc(100% - 40px);
+    /* 留出按钮的空间 */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* 半透明背景，方便看到背景图 */
+    border-radius: 5px;
+    color: #333;
+}
+
+.ancient-button {
+    padding: 0 15px;
+    background-color: #8b4513;
+    /* 古风色调 */
+    border-color: #8b4513;
+    color: white;
+    border-radius: 5px;
+}
+
+.ant-input-group-addon {
+    background-color: transparent;
+    /* 移除默认背景色 */
+}
+
+.ant-input-group-addon .ant-btn {
+    border-radius: 0 5px 5px 0;
+    /* 调整按钮边角，使其与输入框匹配 */
+}
